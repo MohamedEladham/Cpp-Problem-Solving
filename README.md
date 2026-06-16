@@ -119,7 +119,7 @@ This repository is continuously updated as I solve more problems and progress th
 Feel free to connect or follow my progress:
 
 * GitHub: https://github.com/MohamedEladham
-* LinkedIn: [Your LinkedIn Profile Link]
+* LinkedIn: https://www.linkedin.com/in/mohamed-eladham-dev
 
 ---
 
