@@ -64,15 +64,15 @@ stDate ConvertTotalDaysToDate(short TotalDays, short Year)
 {
 	stDate Date;
 	short Month = 1;
-	short NumberOfDaysInMonth;
+	short DaysInCurrentMonth;
 
 	while (true)
 	{
-		NumberOfDaysInMonth = NumberOfDaysInMonth(Month, Year);
+		DaysInCurrentMonth = NumberOfDaysInMonth(Month, Year);
 
-		if (TotalDays > NumberOfDaysInMonth)
+		if (TotalDays > DaysInCurrentMonth)
 		{
-			TotalDays -= NumberOfDaysInMonth;
+			TotalDays -= DaysInCurrentMonth;
 			Month++;
 		}
 		else
